@@ -1,0 +1,54 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+} 
+
+.container1 { 
+    width: 100%; 
+    height: 100vh; 
+    background-image: 
+        linear-gradient(rgb(179, 244, 243), 
+                        rgb(177, 228, 237)); 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+} 
+
+.container1 h1 { 
+    color: rgb(133, 81, 238); 
+    font-weight: 700; 
+    font-size: 25px; 
+    text-align: center; 
+} 
+
+.converter1-row { 
+    display: flex; 
+    width: 80%; 
+    justify-content: space-between; 
+    align-items: center; 
+    background: whitesmoke; 
+    border-radius: 10px; 
+    padding: 50px 20px; 
+} 
+
+.card { 
+    flex-basis: 32%; 
+    text-align: center; 
+} 
+
+.card label { 
+    font-size: 15px; 
+    font-weight: 500; 
+    margin-bottom: 10px; 
+    color: black; 
+} 
+
+.card input { 
+    width: 150px; 
+    height: 30px; 
+    background: white; 
+    border-radius: 5px; 
+    text-align: center; 
+} 
